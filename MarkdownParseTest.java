@@ -20,7 +20,7 @@ public class MarkdownParseTest {
     @Test
     public void addition() throws IOException{
         assertEquals(2, 1 + 1);
-        assertEquals(List.of("https://ucsd-cse15l-w22.github.io/week/week3/"), Links("test-file2.md"));
+        assertEquals(List.of(""), Links("test-file4.md"));
     }
     @Test
     public void testMarkdownParse() throws IOException{
