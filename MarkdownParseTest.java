@@ -19,7 +19,7 @@ public class MarkdownParseTest {
     }    
     @Test
     public void addition() throws IOException{
-        assertEquals(2, 1 + 1);
+        assertEquals(0, 1 + 1);
         assertEquals(List.of(""), Links("test-file4.md"));
     }
     @Test
