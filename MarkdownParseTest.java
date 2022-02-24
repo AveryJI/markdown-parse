@@ -10,17 +10,10 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 
-public class MarkdownParseTest {
-    public static ArrayList<String> Links (String markdown) throws IOException{
-        Path fileName = Path.of(markdown);
-	    String contents = Files.readString(fileName);
-        ArrayList<String> links = MarkdownParse.getLinks(contents);
-        return links;
-    }    
+public class MarkdownParseTest {  
     @Test
     public void addition() throws IOException{
         assertEquals(2, 1 + 1);
-        assertEquals(List.of(""), Links("test-file4.md"));
     }
     @Test
     public void testMarkdownParse() throws IOException{
